@@ -6,7 +6,7 @@ function App() {
     <>
       <Calculator />
     </>
-  )
+  );
 };
 
 export default App;

@@ -1,7 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { useState } from 'react';
 import {evaluate} from 'mathjs';
-import Logo from '../logo.png'
 import Button from './Button'
 import Input from './Input'
 import ClearButton from './ClearButton';
@@ -13,6 +12,8 @@ const Calculator = () => {
     const addInput = value => {
     setInput(input + value);
     };
+
+    const handleClear=() => setInput('');
   
     const calculateResult = () => {
     if(input) {
@@ -24,13 +25,6 @@ const Calculator = () => {
   
     return(
      <div className='App'>
-       <div className="title-container">
-         <img 
-         src={Logo}
-         alt='Logo'
-         className='logo'
-         />
-       </div>
        <div className="calculator-container">
          <Input input={input} />
          <div className="row">
@@ -43,7 +37,8 @@ const Calculator = () => {
             <Button handleClick={addInput}>4</Button>
            <Button handleClick={addInput} >5</Button>
            <Button handleClick={addInput}>6</Button>
-           <Button handleClick={addInput}>-</Button></div>
+           <Button handleClick={addInput}>-</Button>
+         </div>
          <div className="row">
            <Button handleClick={addInput}>7</Button>
            <Button handleClick={addInput}>8</Button>
@@ -57,7 +52,7 @@ const Calculator = () => {
            <Button handleClick={addInput}>/</Button>
            </div>
          <div className="row">
-            <ClearButton handleClear={() => setInput('')}>
+            <ClearButton handleClear= {handleClear} >
               CLEAR 
             </ClearButton>
          </div>
