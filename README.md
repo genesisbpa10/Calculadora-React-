@@ -12,7 +12,7 @@
 * Vite
 * Bootstrap
 
-![Image text](https://i.postimg.cc/50tXM43w/pantalla-calculadora.png)
+![Image text](https://i.postimg.cc/BtfZt4x7/pantalla-calculadora.png)
 
 ## Contacto:
 * Creador: Génesis Pérez.
