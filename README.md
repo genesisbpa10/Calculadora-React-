@@ -12,6 +12,7 @@
 * Vite
 * Bootstrap
 
+## Vista previa
 ![Image text](https://i.postimg.cc/BtfZt4x7/pantalla-calculadora.png)
 
 ## Contacto:
