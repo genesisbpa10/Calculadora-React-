@@ -1,6 +1,6 @@
-###Calculadora-React
+### Calculadora-React
 
-#Es un Calculadora con funcionalidades básicas realizada basada en el ejemplo de FreeCodeCamp Mayo 2022
+# Es un Calculadora con funcionalidades básicas realizada basada en el ejemplo de FreeCodeCamp Mayo 2022
 <https://project-react-azure.vercel.app/>
 
 ## Las tecnologías utilizadas en el desarrollo del proyecto son:
