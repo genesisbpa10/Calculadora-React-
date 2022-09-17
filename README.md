@@ -1,6 +1,7 @@
 # Calculadora-React
 
 ## Es una calculadora con funcionalidades básicas basada en el ejemplo de FreeCodeCamp. Mayo-2022
+## Link para ver online
 <https://project-react-azure.vercel.app/>
 
 ## Las tecnologías utilizadas en el desarrollo del proyecto son:
@@ -11,7 +12,6 @@
 * Vite
 * Bootstrap
 
-##Vista previa
 ![GIF](https://media.giphy.com/media/tp9qSGTQI4znyGb2Rq/giphy.gif)
 
 ## Contacto:
